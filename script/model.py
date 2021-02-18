@@ -68,7 +68,7 @@ class paraKor(pl.LightningModule):
                         'frequency': 1}
         return [optimizer], [lr_scheduler]
     
-    def chat(self):
+    def test(self):
         with torch.no_grad():
             while 1:
                 q = input('A: ').strip()
