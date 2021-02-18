@@ -1,6 +1,6 @@
 # para-Kor
 
-- 한국어로 pretrained된 [GPT3-small]((https://github.com/kiyoungkim1/LMkor)) 모델을 이용하여 한국어 Paraphrase Model을 만들었습니다.
+- 한국어로 pretrained된 [GPT3-small](https://github.com/kiyoungkim1/LMkor) 모델을 이용하여 한국어 Paraphrase Model을 만들었습니다.
 - Paraphrase Model은 Language Style Transfer 시에 핵심적인 역할을 할 수 있습니다. 
 
 <br>
