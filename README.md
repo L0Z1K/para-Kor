@@ -26,6 +26,8 @@ pip install -r requirements.txt
 - 간단하게 kor-eng pair data에서 english sentence를 [Papago Naver](https://papago.naver.com)로 번역하여 kor-kor pair를 만들었습니다. Dataset의 Quality에 따라 Model의 performance가 달라지므로 Preprocessing이 필요합니다.
 - 만든 dataset의 일부를 `example.csv`에 첨부하였습니다.
 
+<br> 
+
 ### Train
 
 - `para-Kor` can be trained as follows:
@@ -53,6 +55,8 @@ $ python script/train.py --gpus 2 --train --accelerator ddp --train_file /worksp
 $ python script/train.py --help
 ```
 
+<br>
+
 ### Test
 
 - `para-Kor` can be tested as follows:
@@ -62,9 +66,11 @@ $ python script/train.py --help
 $ python script/train.py --test --model_params /path/to/your/checkpoint.ckpt
 ```
 
-#### Sample Results
+<br>
 
-- A와 B의 문장이 비슷한 의미이면서 구조는 조금 다르게 나오는 걸로 보아 Paraphrasing이 꽤 성공적으로 이루어졌군요.
+#### Results
+
+- A와 B의 문장이 비슷한 의미이면서 구조는 조금 다르게 나오는 걸로 보아 Paraphrasing이 되었습니다.
 
 ```
 A: 안녕하세요. 저는 개발자입니다.
@@ -90,6 +96,8 @@ B: 그만 쉬고 싶어요
 - 현재는 model의 performance를 직접 경험해볼 수는 없습니다.
 
 - 추후에 fine-tuning된 model을 이용하여 api 형식으로 배포할 생각입니다.
+
+<br>
 
 ## License
 
