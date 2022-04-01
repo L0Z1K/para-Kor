@@ -93,9 +93,11 @@ B: 그만 쉬고 싶어요
 
 ## TODO
 
-- 현재는 model의 performance를 직접 경험해볼 수는 없습니다.
+- ~~현재는 model의 performance를 직접 경험해볼 수는 없습니다.~~
 
-- 추후에 fine-tuning된 model을 이용하여 api 형식으로 배포할 생각입니다.
+- ~~추후에 fine-tuning된 model을 이용하여 api 형식으로 배포할 생각입니다.~~
+
+- 업데이트 계획 없음.
 
 <br>
 
